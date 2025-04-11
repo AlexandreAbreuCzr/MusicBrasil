@@ -1,0 +1,273 @@
+body{
+
+}
+
+
+/*Header*/
+
+    header{
+        border-bottom: 1px solid;
+        position: sticky;
+        top: 0;
+        font-family: "Special Gothic Condensed One", sans-serif;
+    }
+
+    nav{
+        padding: 10px;
+        background-color: rgb(211, 189, 148);
+
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    nav li{
+
+        padding: 0px 10px;
+    }
+
+    .logo{
+        width: 20%;
+        padding-bottom: 10px;
+    }
+
+    .logo img{
+    width: 100%;
+    
+    margin-bottom: 10px;
+    }
+
+    .barraPesquisa{
+        width: 50%;
+        background-color: white;
+        padding: 5px;
+        border: solid 1px;
+        border-radius: 5px;
+        transition: width 0.4s ease-in-out;
+    }
+
+    
+    form{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .barraPesquisa input[type="text"]{
+        width: 92%;
+        border: none;
+        font-size: 1.2em;
+    }
+
+    
+    .barraPesquisa input[type="submit"]{
+        background: url(/MusicBrasil/Imgs/Search.png);
+        width: 27px;
+        height: 27px;
+        border: none;
+        
+    }
+    
+    .barraPesquisa input[type="submit"]:hover{
+        cursor: pointer;
+    }
+    
+    .Carrinho{
+        
+    }
+    
+    .Entrar{
+        margin-left: 10%;
+        font-size: 1.4em;
+        
+    }
+    
+    .Entrar a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    /*Fim Do Header*/
+    /**/
+    /*Principal*/
+    
+    /*Promos*/
+
+        .Promocoes{
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            padding-bottom: 2.3em;
+            border-bottom: 1px solid;
+        }
+
+        .Promocoes-lista{
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .promo{
+            background-color: white;
+            text-align: center;
+            margin-left: 2%;
+            width: 20%;
+            padding: 5px;
+            border: solid black 1px;
+            border-radius: 6px;
+            transition: 0.5s all;
+            font-family: "Special Gothic Condensed One", sans-serif;
+        }
+        
+        .promo:hover{
+            width: 21%;
+        }
+
+        .promo img{
+            width: 100%;
+        }
+
+        .tituloP{
+            text-align: left;
+            margin-top: 10px;
+            font-size: 2.3em;
+            font-weight: bold;
+            margin-left: 8%;
+        }
+
+        .promo h2{
+            font-size: 25px;
+            font-weight: bold;
+            padding: 5px;
+            margin-bottom: 10px;
+            border-top: black solid 1px;
+        }
+
+        .promo p{
+            font-size: 25px;
+            font-size: 25px;
+
+        }
+
+    /*Fim das Promos*/
+
+/*Fim do Principal*/
+
+
+/*Rodape*/
+    footer {
+        background: rgb(24, 24, 24);
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    footer img{
+        width: 10%;
+        padding: 10px;
+    }
+    footer p{
+        padding-bottom: 20px;
+    }
+
+
+
+/*Fim do Rodape*/
+
+    main{
+        
+    }
+/*Entrar*/
+
+    .form-login
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .form-login h1{
+        text-align: center;
+    }
+    
+    /*Entrar-lista*/
+
+    .form-login .container h2{
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .form-login .container hr{
+        border: 1px solid black;
+        margin-bottom: 20px;
+    }
+
+    .form-login .container{
+        
+        margin: 0 auto;
+        background-color: rgb(211, 189, 148);
+        padding: 20px 70px 70px 70px;
+        border-radius: 5px;
+        border: 1px solid ;
+    }
+
+    .form-login .itens-div{
+        margin: 10px;
+    }
+
+    .form-login .itens-div label{
+        font-size: 23px;
+        display: block;
+    }
+    .form-login .itens-div input{
+        width:100%;
+        padding: 8px 8px 0 8px;
+        font-size: 20px;
+        border: none;
+        border-bottom: solid 1px;
+        background-color: white;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .form-login .enviar{
+        margin: 0 auto;
+        width: 30%;
+        
+    }
+    
+    .form-login .enviar input{  
+        display: block;
+        background: none;
+        border: none;
+        font-size: 25px;
+        transition: 0.8s all;
+    }
+
+    .form-login.enviar:hover {
+        font-size: 30px;
+    }
+
+
+    .form-login .mudarform{
+        padding-top: 10px;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-login .mudarform a{
+        font-size: 20px;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
+    /*Fim do Entra-lista*/
+
+/*Fim do Entrar*/
+
