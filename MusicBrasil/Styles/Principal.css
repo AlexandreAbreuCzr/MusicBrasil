@@ -1,5 +1,6 @@
 body{
-
+    
+      
 }
 
 
@@ -67,7 +68,7 @@ body{
 
     
     .barraPesquisa input[type="submit"]{
-        background: url(/MusicBrasil/Imgs/Search.png);
+        background: url(/Imgs/Search.png);
         width: 27px;
         height: 27px;
         border: none;
@@ -92,6 +93,18 @@ body{
         text-decoration: none;
         color: black;
     }
+
+    
+    .Voce{
+        margin-left: 10%;
+        width: 10%;
+        display: none;
+        text-align: center;
+    }
+    
+    .Voce img{
+        width: 50%;
+    }
     
     /*Fim Do Header*/
     /**/
@@ -112,6 +125,7 @@ body{
             flex-direction: row;
             justify-content: center;
             flex-wrap: wrap;
+            width: 100%;
         }
 
         .promo{
@@ -132,6 +146,7 @@ body{
 
         .promo img{
             width: 100%;
+            
         }
 
         .tituloP{
@@ -171,7 +186,7 @@ body{
     footer img{
         width: 10%;
         padding: 10px;
-    }
+    }               
     footer p{
         padding-bottom: 20px;
     }
@@ -214,6 +229,7 @@ body{
         padding: 20px 70px 70px 70px;
         border-radius: 5px;
         border: 1px solid ;
+        width: 70%;
     }
 
     .form-login .itens-div{
@@ -235,8 +251,8 @@ body{
     }
 
     .form-login .enviar{
-        margin: 0 auto;
-        width: 30%;
+        
+        width: 100%;
         
     }
     
@@ -246,10 +262,12 @@ body{
         border: none;
         font-size: 25px;
         transition: 0.8s all;
+        margin: 0 auto;
     }
 
-    .form-login.enviar:hover {
+    .form-login .enviar input:hover {
         font-size: 30px;
+        cursor: pointer;
     }
 
 
@@ -267,7 +285,80 @@ body{
         color: black;
     }
 
+    .form-login #resposta{
+        
+        padding: 10px;
+        border: 1px solid;
+        background-color: white;
+        margin-top: 20px;
+        transition: 1s;
+    }
+    .form-login #resposta h1{
+        font-size: 20px;
+        font-weight: 50;
+    }
+
     /*Fim do Entra-lista*/
 
 /*Fim do Entrar*/
 
+.compra{
+    display: flex;
+    width: 98%;
+    margin: 2% auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px;
+}
+
+.compraEsquerda{
+    text-align: center;
+    width: 70%;
+}
+
+.compraEsquerda img{
+    width: 50%;
+    height: 100%;
+
+}
+
+.compraDireita{
+    width: 29%;
+    margin: 1%;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+    
+    padding: 10px;
+}
+
+.nomeProduto{
+    font-size: 3em;   
+    font-family: "Inria Sans", sans-serif;
+    margin-bottom: 5%;
+}
+
+.precoProduto{
+    font-size: 2em;   
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 100;
+
+    margin-bottom: 10%;
+}
+
+.botaoCompra{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(211, 189, 148);
+    border: white solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.botaoCompra:hover{
+    transition: 0.5s;
+    transform: scale(103%);
+}
+.desativado{
+    background-color: gray;
+}
